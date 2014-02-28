@@ -82,3 +82,6 @@ Get it with:
 bower install famfamfam-silk
 ```
 
+**Composer / Packagist**
+
+[famfamfam-silk on Packagist](https://packagist.org/packages/kwipi/famfamfam-silk)
