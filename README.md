@@ -59,3 +59,26 @@ is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 Though, it is just composed a few trivial json files and a Readme.
 
 
+
+Get the package
+----------
+
+**NPM**
+
+[famfamfam-silk on NPM](https://www.npmjs.org/package/famfamfam-silk)
+
+Get it with:
+
+```
+npm install famfamfam-silk
+```
+
+
+**Bower**
+
+Get it with:
+
+```
+bower install famfamfam-silk
+```
+
