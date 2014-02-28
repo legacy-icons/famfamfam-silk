@@ -1,0 +1,31 @@
+{
+  "name": "famfamfam-silk",
+	"version": "0.1.0",
+	"homepage": "https://github.com/kwipi/famfamfam-silk",
+	"description": "FamFamFam Silk icon pack",
+	"keywords": [
+		"icon",
+		"silk",
+		"img",
+		"famfamfam",
+		"png",
+		"gif"
+	],
+	"license": "MIT",
+  "author": "Kwipi",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kwipi/famfamfam-silk.git"
+  },
+	"bugs": {
+    "url": "https://github.com/kwipi/famfamfam-silk/issues"
+  },
+	"files": [
+		"img"
+	],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+	"dependencies": {},
+  "devDependencies": {}
+}
