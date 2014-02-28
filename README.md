@@ -16,7 +16,7 @@ The aim of this project is to make this icon pack available through various pack
 - [Packagist](https://packagist.org)
 
 
-All icons are supplied in both PNG and GIF formats.
+All icons are supplied in PNG format.
 
 
 
@@ -82,6 +82,3 @@ Get it with:
 bower install famfamfam-silk
 ```
 
-**Composer / Packagist**
-
-[famfamfam-silk on Packagist](https://packagist.org/packages/kwipi/famfamfam-silk)
