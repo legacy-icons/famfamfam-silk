@@ -1,31 +1,31 @@
 {
   "name": "famfamfam-silk",
-	"version": "0.1.1",
-	"homepage": "https://github.com/kwipi/famfamfam-silk",
-	"description": "FamFamFam Silk icon pack",
-	"keywords": [
-		"icon",
-		"silk",
-		"img",
-		"famfamfam",
-		"png",
-		"gif"
-	],
-	"license": "MIT",
-  "author": "Kwipi",
+  "version": "0.2.0",
+  "homepage": "https://github.com/T1st3/famfamfam-silk",
+  "description": "FamFamFam Silk icon pack",
+  "keywords": [
+    "icon",
+    "silk",
+    "img",
+    "famfamfam",
+    "png",
+    "gif"
+  ],
+  "license": "MIT",
+  "author": "t1st3 <contact@tiste.org> (http://www.tiste.org/)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kwipi/famfamfam-silk.git"
+    "url": "git://github.com/T1st3/famfamfam-silk.git"
   },
-	"bugs": {
-    "url": "https://github.com/kwipi/famfamfam-silk/issues"
+  "bugs": {
+    "url": "https://github.com/T1st3/famfamfam-silk/issues"
   },
-	"files": [
-		"img"
-	],
+  "files": [
+    "./img"
+  ],
   "engines": {
     "node": ">= 0.10.0"
   },
-	"dependencies": {},
+  "dependencies": {},
   "devDependencies": {}
 }
