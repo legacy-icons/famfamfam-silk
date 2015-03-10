@@ -3,3 +3,11 @@ node_js:
 - '0.10'
 before_install:
 - npm install -g gulp
+deploy:
+  provider: npm
+  email: contact@tiste.org
+  api_key:
+    secure: ejpajtHaMR2CWAHbpp7Ut+UTdY+GvYksryK/bqiSsgtFoII2A76F23zL/Hp+QiRhmXDYG1E/1FisKgZdcTTOqC67QNlyX1b1HwjgfezbqIgTmnz24CYrck1GTYqI/9JtlqAP3uRrmzLDkPZzC3NUOAZLojBIe1DvuH9OXg/XncI=
+  on:
+    tags: true
+    repo: T1st3/famfamfam-silk
