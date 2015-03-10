@@ -24,5 +24,14 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "chalk": "~0.5",
+    "cowsay": "~1.0",
+    "del": "~1.1",
+    "figlet": "~1.1",
+    "gulp": "~3.8",
+    "gulp-notify": "~2.2",
+    "qrcode-terminal": "~0.9",
+    "somebody": "~2.0"
+  }
 }
