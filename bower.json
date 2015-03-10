@@ -28,7 +28,10 @@
     ".git",
     ".gitignore",
     ".gitattributes",
-    "README.md"
+    "README.md",
+    ".editorconfig",
+    ".travis.yml",
+    ".npmignore"
   ],
   "dependencies": {}
 }
