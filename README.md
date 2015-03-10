@@ -85,4 +85,4 @@ bower install famfamfam-silk
 
 **Composer / Packagist**
 
-[famfamfam-silk on Packagist](https://packagist.org/packages/kwipi/famfamfam-silk)
+[famfamfam-silk on Packagist](https://packagist.org/packages/t1st3/famfamfam-silk)
