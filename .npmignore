@@ -13,3 +13,6 @@ gulpfile.js
 
 .travis.yml
 .editorconfig
+
+composer.json
+composer.lock
