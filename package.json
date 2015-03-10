@@ -20,9 +20,6 @@
   "bugs": {
     "url": "https://github.com/T1st3/famfamfam-silk/issues"
   },
-  "files": [
-    "./img"
-  ],
   "engines": {
     "node": ">= 0.10.0"
   },
