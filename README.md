@@ -1,6 +1,10 @@
 famfamfam-silk
 ===============
 
+[![NPM version](https://img.shields.io/npm/v/famfamfam-silk.svg)](https://www.npmjs.org/package/famfamfam-silk)
+[![Bower version](https://img.shields.io/bower/v/famfamfam-silk.svg)](http://bower.io/search/?q=famfamfam-silk)
+[![Packagist version](https://img.shields.io/packagist/v/t1st3/famfamfam-silk.svg)](https://packagist.org/packages/t1st3/famfamfam-silk)
+
 
 About
 ----------
@@ -64,8 +68,6 @@ Get the package
 ----------
 
 **NPM**
-
-[famfamfam-silk on NPM](https://www.npmjs.org/package/famfamfam-silk)
 
 Get it with:
 
