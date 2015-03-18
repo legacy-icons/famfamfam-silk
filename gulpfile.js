@@ -16,6 +16,10 @@ cowsay = require('cowsay'),
 qrcode = require('qrcode-terminal'),
 
 gulp = require('gulp'),
+imagemin = require('gulp-imagemin'),
+rename = require('gulp-rename'),
+minifyCSS = require('gulp-minify-css'),
+spriteBuilder = require( 'node-spritesheet' ).Builder,
 notify = require('gulp-notify');
 
 function displayCowsay (txt, cb) {
@@ -58,6 +62,56 @@ gulp.task('figlet', [], function (cb) {
       cb();
     });
   }
+});
+
+/*
+ * BUILD TASK
+ */
+
+gulp.task('build_clean', ['figlet'], function (cb) {
+  del(['./dist/*'], cb);
+});
+
+gulp.task('sprite', ['build_clean'], function (cb) {
+  var builder = null,
+  images = [];
+  fs.readdir('./src', function (err, files) {
+    if (err) {
+      throw err;
+    }
+    files.forEach(function (file) {
+      if (path.extname(file) === '.png') {
+        images.push('./src/' + file);
+      }
+    });
+    builder = new spriteBuilder({
+      outputDirectory: './dist/sprite',
+      outputImage: pkg.name + '.png',
+      outputCss: pkg.name + '.css',
+      selector: '.' + pkg.name,
+      images: images
+    });
+    builder.build( function() {
+      gulp.src('./dist/sprite/' + pkg.name + '.css')
+        .pipe(minifyCSS({keepSpecialComments: '*'}))
+        .pipe(rename(pkg.name + '.min.css'))
+        .pipe(gulp.dest('./dist/sprite'));
+      cb();
+    });
+  });
+});
+
+gulp.task('imagemin', ['sprite'], function (cb) {
+  gulp.src('./src/*.png')
+    .pipe(imagemin())
+    .pipe(gulp.dest('./dist/png'));
+  cb();
+});
+
+gulp.task('build', ['imagemin'], function (cb) {
+  triggerNotification ('Builder', 'Successfully built application', function () {
+    displayCowsay('gulp build - DONE', cb);
+  });
 });
 
 /*

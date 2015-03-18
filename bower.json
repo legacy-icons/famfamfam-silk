@@ -16,7 +16,7 @@
     "t1st3 <contact@tiste.org> (http://www.tiste.org/)"
   ],
   "main": [
-    "./img"
+    "./dist"
   ],
   "ignore": [
     "bower_components",
@@ -31,7 +31,8 @@
     "README.md",
     ".editorconfig",
     ".travis.yml",
-    ".npmignore"
+    ".npmignore",
+    "src"
   ],
   "dependencies": {}
 }

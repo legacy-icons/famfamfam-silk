@@ -25,12 +25,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "chalk": "~0.5",
+    "chalk": "~1.0",
     "cowsay": "~1.0",
     "del": "~1.1",
     "figlet": "~1.1",
     "gulp": "~3.8",
+    "gulp-imagemin": "~2.2",
+    "gulp-minify-css": "~1.0",
     "gulp-notify": "~2.2",
+    "gulp-rename": "~1.2",
+    "node-spritesheet": "~0.4",
     "qrcode-terminal": "~0.9",
     "somebody": "~2.0"
   }
