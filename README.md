@@ -115,8 +115,11 @@ bower install famfamfam-silk
 
 
 
-Dev dependencies (NPM)
+Dev dependencies and build status
 ----------
 
-
 [![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
+[![Build Status](https://img.shields.io/travis/T1st3/famfamfam-silk.svg)](https://travis-ci.org/T1st3/famfamfam-silk)
+
+
+
