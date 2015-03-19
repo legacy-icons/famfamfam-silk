@@ -27,9 +27,23 @@ All icons are supplied in PNG format.
 CSS spritesheets
 ----------
 
-In addition to the icons by themselves, this project also ships a CSS spritesheet for the icon-pack. Those spritesheet allows to load the entire icon-pack in just 1 image, and thus reduce HTTP calls.
+You can insert the icons directly into your HTML with a common IMG tag:
 
-All the positioning of the icons inside this alone image is made through CSS.
+```
+    <img alt="Delete" src="dist/png/key_delete.png" width="16" height="11">
+```
+
+
+In addition to the icons by themselves, this project also ships a CSS spritesheet for the icon-pack. This spritesheet allows to load the entire icon-pack in just 1 image, and thus reduce HTTP calls.
+
+All the positioning of the icons inside this alone image is made through CSS, which allows you to just add block-type tags with the proper class and get the same result:
+
+```
+    <div class="famfamfam-silk key_delete"></div>
+```
+
+Just remember to add the CSS stylesheet to the HEAD of your HTML page!
+
 
 
 
