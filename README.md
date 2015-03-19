@@ -111,3 +111,12 @@ bower install famfamfam-silk
 **Composer / Packagist**
 
 [famfamfam-silk on Packagist](https://packagist.org/packages/t1st3/famfamfam-silk)
+
+
+
+
+Dev dependencies (NPM)
+----------
+
+
+[![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
