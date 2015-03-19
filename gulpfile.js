@@ -91,7 +91,7 @@ gulp.task('sprite', ['build_clean'], function (cb) {
       selector: '.' + pkg.name,
       images: images
     });
-    builder.build( function() {
+    builder.build(function() {
       gulp.src('./dist/sprite/' + pkg.name + '.css')
         .pipe(minifyCSS({keepSpecialComments: '*'}))
         .pipe(rename(pkg.name + '.min.css'))
