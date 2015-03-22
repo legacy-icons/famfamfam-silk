@@ -11,7 +11,7 @@ About
 
 The `Silk` icon pack, as available on [famfamfam website](http://www.famfamfam.com/lab/icons/silk/).
 
-All credits for these icons go to their original author: mjames@gmail.com
+All credits for these icons go to their original author: Mark James (mjames@gmail.com)
 
 The aim of this project is to make this icon pack available through various package managers, such as:
 
@@ -30,11 +30,16 @@ CSS spritesheets
 You can insert the icons directly into your HTML with a common IMG tag:
 
 ```
-    <img alt="Delete" src="dist/png/key_delete.png" width="16" height="11">
+    <img alt="Delete" src="dist/png/key_delete.png" width="16" height="16">
 ```
 
 
 In addition to the icons by themselves, this project also ships a CSS spritesheet for the icon-pack. This spritesheet allows to load the entire icon-pack in just 1 image, and thus reduce HTTP calls.
+
+This is what it actually looks:
+
+![Spritesheet](https://raw.githubusercontent.com/T1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png)
+
 
 All the positioning of the icons inside this alone image is made through CSS, which allows you to just add block-type tags with the proper class and get the same result:
 
