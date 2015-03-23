@@ -28,7 +28,7 @@
     ".git",
     ".gitignore",
     ".gitattributes",
-    "README.md",
+    "gulpfile.js",
     ".editorconfig",
     ".travis.yml",
     ".npmignore",
