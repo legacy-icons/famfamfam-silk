@@ -6,6 +6,12 @@ famfamfam-silk
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/famfamfam-silk.svg)](https://packagist.org/packages/t1st3/famfamfam-silk)
 
 
+[![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
+[![Build Status](https://img.shields.io/travis/T1st3/famfamfam-silk.svg)](https://travis-ci.org/T1st3/famfamfam-silk)
+
+
+
+
 About
 ----------
 
@@ -51,6 +57,33 @@ Just remember to add the CSS stylesheet to the HEAD of your HTML page!
 
 
 
+Get the package with NPM
+----------
+
+Just run the following on the CLI (provided your CLI is directed to your work directory)
+
+```
+npm install famfamfam-silk
+```
+
+
+
+Get the package with Bower
+----------
+
+Just run the following on the CLI (provided your CLI is directed to your work directory)
+
+```
+bower install famfamfam-silk
+```
+
+
+Get the package with Packagist
+----------
+
+[famfamfam-silk on Packagist](https://packagist.org/packages/t1st3/famfamfam-silk)
+
+
 
 Original readme (from author of the icons)
 ----------
@@ -92,39 +125,42 @@ Though, it is just composed a few trivial json files and a Readme.
 
 
 
-Get the package
+
+Build (the whole project or your custom project)
 ----------
 
-**NPM**
 
-Get it with:
+We use [Gulp](http://gulpjs.com/) to build the project, so if you want to re-build or customize this project, you'll need Gulp.
 
-```
-npm install famfamfam-silk
-```
-
-
-**Bower**
-
-Get it with:
+After gulp is installed, and your CLI is pointed to your work directory, first install the dependencies:
 
 ```
-bower install famfamfam-silk
+     npm install
 ```
 
 
-**Composer / Packagist**
-
-[famfamfam-silk on Packagist](https://packagist.org/packages/t1st3/famfamfam-silk)
+then, you can run the `gulp build` task to build the project:
 
 
+```
+     gulp build
+```
 
 
-Dev dependencies and build status
-----------
 
-[![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
-[![Build Status](https://img.shields.io/travis/T1st3/famfamfam-silk.svg)](https://travis-ci.org/T1st3/famfamfam-silk)
+
+**What the build task does?**
+
+First, it takes PNG files from the `src` folder, and pastes them to the `dist` folder.
+
+Then it creates a spritesheet from the PNG images located in the `src` folder, and thus creates the `sprite` folder in `dist`.
+
+If, for example you just want `application_put` and `monitor_edit` icons in a spritesheet, you just have to fork this project, point your CLI to the working directory, 
+empty the `src` directory, except `application_put` and `monitor_edit` icons in PNG format, and then run the `gulp build` task.
+
+You'll get the proper spritesheet and copies of the icons directly in the `dist` folder.
+
+
 
 
 
