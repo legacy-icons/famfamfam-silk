@@ -27,7 +27,7 @@
   "devDependencies": {
     "chalk": "~1.1",
     "cowsay": "~1.1",
-    "del": "~1.2",
+    "del": "~2.0",
     "figlet": "~1.1",
     "gulp": "~3.9",
     "gulp-imagemin": "~2.3",
