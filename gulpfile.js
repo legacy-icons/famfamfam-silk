@@ -68,8 +68,8 @@ gulp.task('figlet', [], function (cb) {
  * BUILD TASK
  */
 
-gulp.task('build_clean', ['figlet'], function (cb) {
-  del(['./dist/*'], cb);
+gulp.task('build_clean', ['figlet'], function () {
+  return del(['./dist/*']);
 });
 
 gulp.task('sprite', ['build_clean'], function (cb) {
