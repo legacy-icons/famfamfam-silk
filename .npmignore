@@ -18,3 +18,5 @@ composer.json
 composer.lock
 
 src
+
+nuget

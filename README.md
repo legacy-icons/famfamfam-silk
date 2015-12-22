@@ -4,7 +4,7 @@ famfamfam-silk
 [![NPM version](https://img.shields.io/npm/v/famfamfam-silk.svg)](https://www.npmjs.org/package/famfamfam-silk)
 [![Bower version](https://img.shields.io/bower/v/famfamfam-silk.svg)](http://bower.io/search/?q=famfamfam-silk)
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/famfamfam-silk.svg)](https://packagist.org/packages/t1st3/famfamfam-silk)
-
+[![Nuget version](https://img.shields.io/nuget/v/famfamfam-silk.svg)](https://www.nuget.org/packages/famfamfam-silk/)
 
 [![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
 [![Build Status](https://img.shields.io/travis/T1st3/famfamfam-silk.svg)](https://travis-ci.org/T1st3/famfamfam-silk)
@@ -24,6 +24,7 @@ The aim of this project is to make this icon pack available through various pack
 - [NPM](https://npmjs.org)
 - [Bower](http://bower.io)
 - [Packagist](https://packagist.org)
+- [NuGet](https://www.nuget.org)
 
 
 All icons are supplied in PNG format.
@@ -78,10 +79,24 @@ bower install famfamfam-silk
 ```
 
 
-Get the package with Packagist
+Get the package with Composer / Packagist
 ----------
 
-[famfamfam-silk on Packagist](https://packagist.org/packages/t1st3/famfamfam-silk)
+Just run the following on the CLI (provided your CLI is directed to your work directory)
+
+```
+composer require t1st3/famfamfam-silk
+```
+
+
+Get the package with NuGet
+----------
+
+Just run the following on the CLI (provided your CLI is directed to your work directory)
+
+```
+Install-Package famfamfam-silk
+```
 
 
 

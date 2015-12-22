@@ -32,7 +32,8 @@
     ".editorconfig",
     ".travis.yml",
     ".npmignore",
-    "src"
+    "src",
+    "nuget"
   ],
   "dependencies": {}
 }
