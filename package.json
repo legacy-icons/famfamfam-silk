@@ -31,7 +31,7 @@
     "figlet": "~1.1",
     "gulp": "~3.9",
     "gulp-imagemin": "~2.4.0",
-    "gulp-minify-css": "~1.2",
+    "gulp-minify-css": "~1.2.3",
     "gulp-notify": "~2.2",
     "gulp-rename": "~1.2",
     "node-spritesheet": "~0.4",
