@@ -174,8 +174,3 @@ If, for example you just want `application_put` and `monitor_edit` icons in a sp
 empty the `src` directory, except `application_put` and `monitor_edit` icons in PNG format, and then run the `gulp build` task.
 
 You'll get the proper spritesheet and copies of the icons directly in the `dist` folder.
-
-
-
-
-
