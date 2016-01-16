@@ -26,13 +26,10 @@
   "dependencies": {},
   "devDependencies": {
     "chalk": "~1.1",
-    "cowsay": "~1.1",
     "del": "~2.2.0",
-    "figlet": "~1.1",
     "gulp": "~3.9",
     "gulp-imagemin": "~2.4.0",
     "gulp-minify-css": "~1.2.3",
-    "gulp-notify": "~2.2",
     "gulp-rename": "~1.2",
     "node-spritesheet": "~0.4",
     "qrcode-terminal": "~0.10",

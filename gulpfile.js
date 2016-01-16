@@ -10,65 +10,19 @@ del = require('del'),
 somebody = require('somebody'),
 pkgAuthor = somebody.parse(pkg.author),
 
-figletShown = 0,
-figlet = require('figlet'),
-cowsay = require('cowsay'),
 qrcode = require('qrcode-terminal'),
 
 gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
 rename = require('gulp-rename'),
 minifyCSS = require('gulp-minify-css'),
-spriteBuilder = require( 'node-spritesheet' ).Builder,
-notify = require('gulp-notify');
-
-function displayCowsay (txt, cb) {
-  console.log('\n\n');
-  console.log(chalk.magenta(cowsay.say({
-    text: pkg.name + ' - ' + txt,
-    e: 'oO',
-    T: 'U '
-  })));
-  console.log('\n\n');
-  cb();
-}
-
-function triggerNotification (title, txt, cb) {
-  gulp.src('./')
-    .pipe(notify({
-      title: pkg.name + ' - ' + title,
-      message: txt
-    }));
-  cb();
-}
-
-gulp.task('figlet', [], function (cb) {
-  if (figletShown === 0) {
-    figlet.text(pkg.name, {
-      font: 'Small',
-      horizontalLayout: 'default',
-      verticalLayout: 'default'
-    }, function(err, data) {
-      if (err) {
-        console.log('Something went wrong with FIGlet');
-        console.dir(err);
-        return;
-      }
-      console.log('\n\n');
-      console.log(chalk.green(data));
-      console.log(chalk.blue(pkg.version));
-      console.log('\n\n');
-      figletShown = 1;
-      cb();
-    });
-  }
-});
+spriteBuilder = require( 'node-spritesheet' ).Builder;
 
 /*
  * BUILD TASK
  */
 
-gulp.task('build_clean', ['figlet'], function () {
+gulp.task('build_clean', [], function () {
   return del(['./dist/*']);
 });
 
@@ -109,16 +63,14 @@ gulp.task('imagemin', ['sprite'], function (cb) {
 });
 
 gulp.task('build', ['imagemin'], function (cb) {
-  triggerNotification ('Builder', 'Successfully built application', function () {
-    displayCowsay('gulp build - DONE', cb);
-  });
+  cb();
 });
 
 /*
  * INFO TASK
  */
 
-gulp.task('info', ['figlet'], function (cb) {
+gulp.task('info', [], function (cb) {
   var txt;
   console.log('\n\n');
   console.log('[' + chalk.green('NAME') + '] ' + pkg.name);
@@ -142,9 +94,7 @@ gulp.task('info', ['figlet'], function (cb) {
   console.log('\n\n');
   qrcode.generate(pkg.homepage);
   console.log('\n\n');
-  triggerNotification ('Info', 'Rendered the info...', function () {
-    displayCowsay('gulp info - DONE', cb);
-  });
+  cb();
 });
 
 gulp.task('default', ['info', 'build']);
