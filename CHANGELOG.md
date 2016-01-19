@@ -1,6 +1,13 @@
 ## Change Log
 
-### upcoming (2015/12/31 14:42 +00:00)
+### 0.3.5 (2016/01/19 14:28 +00:00)
+- [9a1cf81](https://github.com/T1st3/famfamfam-silk/commit/9a1cf817f1aaa834af1f1312a5cc07b22dd432fc) chore: v0.3.5 (@T1st3)
+- [124601f](https://github.com/T1st3/famfamfam-silk/commit/124601f9b84d1dac527357461f80e479385ac579) docs: add LICENSE.md and set license to CC-BY-2.5 (@T1st3)
+- [0f4df1b](https://github.com/T1st3/famfamfam-silk/commit/0f4df1bccd53fa64d9c888c7ecc89246a21abe6c) chore: update deps versions with caret ranges (@T1st3)
+- [73b7477](https://github.com/T1st3/famfamfam-silk/commit/73b74772da85ec7a5d2afb1f7134144ea1bd83e3) chore: replace gulp-minify-css with gulp-cssnano (@T1st3)
+- [4980bc3](https://github.com/T1st3/famfamfam-silk/commit/4980bc3d2df6176938faae2e3405ae231b69fe54) chore: remove figlets, cows and notifications (@T1st3)
+- [e3b7ad5](https://github.com/T1st3/famfamfam-silk/commit/e3b7ad5060b7932f8b0636b58ed938c323c5b8a3) chore: add newline at end of config and .md files (@T1st3)
+- [8b51c7b](https://github.com/T1st3/famfamfam-silk/commit/8b51c7b3fbab23211b615646c542bbcb0cf7d8e1) docs: add CHANGELOG.md (@T1st3)
 - [#2](https://github.com/t1st3/famfamfam-silk/pull/2) chore(package): update gulp-minify-css to version 1.2.3 (@T1st3)
 - [5fdcf5f](https://github.com/T1st3/famfamfam-silk/commit/5fdcf5f01aec849ecfbea7e1eaa94f9812f68a5b) chore(package): update gulp-minify-css to version 1.2.3 (@greenkeeperio-bot)
 
