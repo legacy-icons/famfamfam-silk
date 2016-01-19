@@ -12,7 +12,7 @@
     <language>en-us</language>
     <projectUrl>https://github.com/T1st3/famfamfam-silk</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/T1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png</iconUrl>
-    <licenseUrl>https://github.com/T1st3/famfamfam-silk#original-readme-from-author-of-the-icons</licenseUrl>
+    <licenseUrl>https://github.com/T1st3/famfamfam-silk/LICENSE.md</licenseUrl>
     <copyright>Copyright 2015</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
