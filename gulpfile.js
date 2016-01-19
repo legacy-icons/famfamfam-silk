@@ -15,7 +15,7 @@ qrcode = require('qrcode-terminal'),
 gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
 rename = require('gulp-rename'),
-minifyCSS = require('gulp-minify-css'),
+cssnano = require('gulp-cssnano'),
 spriteBuilder = require( 'node-spritesheet' ).Builder;
 
 /*
@@ -47,7 +47,7 @@ gulp.task('sprite', ['build_clean'], function (cb) {
     });
     builder.build(function() {
       gulp.src('./dist/sprite/' + pkg.name + '.css')
-        .pipe(minifyCSS({keepSpecialComments: '*'}))
+        .pipe(cssnano())
         .pipe(rename(pkg.name + '.min.css'))
         .pipe(gulp.dest('./dist/sprite'));
       cb();
