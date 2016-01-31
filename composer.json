@@ -1,6 +1,6 @@
 {
   "name": "t1st3/famfamfam-silk",
-  "homepage": "https://github.com/T1st3/famfamfam-silk",
+  "homepage": "https://github.com/t1st3/famfamfam-silk",
   "description": "FamFamFam Silk icon pack",
   "keywords": [
     "icon",
@@ -13,14 +13,14 @@
   "license": "CC-BY-2.5",
     "authors": [
     {
-      "name": "T1st3",
+      "name": "t1st3",
       "email": "contact@tiste.org",
       "homepage": "http://www.tiste.org/",
       "role": "Maintainer"
     }
   ],
   "support": {
-    "issues": "https://github.com/T1st3/famfamfam-silk/issues/"
+    "issues": "https://github.com/t1st3/famfamfam-silk/issues/"
   },
   "type": "library",
   "extra": {

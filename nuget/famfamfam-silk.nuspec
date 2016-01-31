@@ -4,15 +4,15 @@
     <id>famfamfam-silk</id>
     <version>0.3</version>
     <title>Famfamfam-Silk</title>
-    <authors>T1st3</authors>
+    <authors>t1st3</authors>
     <owners>t1st3</owners>
     <description>Famfamfam-Silk, made available in various package managers, shipped with CSS spritesheet</description>
-    <releaseNotes>https://github.com/T1st3/famfamfam-silk/releases</releaseNotes>
+    <releaseNotes>https://github.com/t1st3/famfamfam-silk/releases</releaseNotes>
     <summary>Famfamfam-Silk</summary>
     <language>en-us</language>
-    <projectUrl>https://github.com/T1st3/famfamfam-silk</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/T1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png</iconUrl>
-    <licenseUrl>https://github.com/T1st3/famfamfam-silk/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/t1st3/famfamfam-silk</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/t1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png</iconUrl>
+    <licenseUrl>https://github.com/t1st3/famfamfam-silk/LICENSE.md</licenseUrl>
     <copyright>Copyright 2015</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>

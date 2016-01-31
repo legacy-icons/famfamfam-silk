@@ -6,8 +6,8 @@ famfamfam-silk
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/famfamfam-silk.svg)](https://packagist.org/packages/t1st3/famfamfam-silk)
 [![Nuget version](https://img.shields.io/nuget/v/famfamfam-silk.svg)](https://www.nuget.org/packages/famfamfam-silk/)
 
-[![Dependency Status](https://img.shields.io/david/dev/T1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
-[![Build Status](https://img.shields.io/travis/T1st3/famfamfam-silk.svg)](https://travis-ci.org/T1st3/famfamfam-silk)
+[![Dependency Status](https://img.shields.io/david/dev/t1st3/famfamfam-silk.svg)](https://david-dm.org/t1st3/famfamfam-silk)
+[![Build Status](https://img.shields.io/travis/t1st3/famfamfam-silk.svg)](https://travis-ci.org/t1st3/famfamfam-silk)
 
 
 
@@ -45,7 +45,7 @@ In addition to the icons by themselves, this project also ships a CSS spriteshee
 
 This is what it actually looks:
 
-![Spritesheet](https://raw.githubusercontent.com/T1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png)
+![Spritesheet](https://raw.githubusercontent.com/t1st3/famfamfam-silk/master/dist/sprite/famfamfam-silk.png)
 
 
 All the positioning of the icons inside this alone image is made through CSS, which allows you to just add block-type tags with the proper class and get the same result:
