@@ -1,5 +1,5 @@
-famfamfam-silk
-===============
+
+# famfamfam-silk
 
 [![NPM version](https://img.shields.io/npm/v/famfamfam-silk.svg)](https://www.npmjs.org/package/famfamfam-silk)
 [![Bower version](https://img.shields.io/bower/v/famfamfam-silk.svg)](http://bower.io/search/?q=famfamfam-silk)
@@ -10,10 +10,7 @@ famfamfam-silk
 [![Build Status](https://img.shields.io/travis/t1st3/famfamfam-silk.svg)](https://travis-ci.org/t1st3/famfamfam-silk)
 
 
-
-
-About
-----------
+## About
 
 The `Silk` icon pack, as available on [famfamfam website](http://www.famfamfam.com/lab/icons/silk/).
 
@@ -26,18 +23,15 @@ The aim of this project is to make this icon pack available through various pack
 - [Packagist](https://packagist.org)
 - [NuGet](https://www.nuget.org)
 
-
 All icons are supplied in PNG format.
 
 
-
-CSS spritesheets
-----------
+## CSS spritesheets
 
 You can insert the icons directly into your HTML with a common IMG tag:
 
-```
-    <img alt="Delete" src="dist/png/key_delete.png" width="16" height="16">
+```html
+<img alt="Delete" src="dist/png/key_delete.png" width="16" height="16">
 ```
 
 
@@ -50,58 +44,36 @@ This is what it actually looks:
 
 All the positioning of the icons inside this alone image is made through CSS, which allows you to just add block-type tags with the proper class and get the same result:
 
-```
-    <div class="famfamfam-silk key_delete"></div>
+```html
+<div class="famfamfam-silk key_delete"></div>
 ```
 
 Just remember to add the CSS stylesheet to the HEAD of your HTML page!
 
 
+## Install
 
-Get the package with NPM
-----------
+### Get the package with NPM
 
-Just run the following on the CLI (provided your CLI is directed to your work directory)
-
-```
-npm install famfamfam-silk
-```
+> npm install famfamfam-silk
 
 
+### Get the package with Bower
 
-Get the package with Bower
-----------
-
-Just run the following on the CLI (provided your CLI is directed to your work directory)
-
-```
-bower install famfamfam-silk
-```
+> bower install famfamfam-silk
 
 
-Get the package with Composer / Packagist
-----------
+### Get the package with Composer / Packagist
 
-Just run the following on the CLI (provided your CLI is directed to your work directory)
-
-```
-composer require t1st3/famfamfam-silk
-```
+> composer require t1st3/famfamfam-silk
 
 
-Get the package with NuGet
-----------
+### Get the package with NuGet
 
-Just run the following on the CLI (provided your CLI is directed to your work directory)
-
-```
-Install-Package famfamfam-silk
-```
+> Install-Package famfamfam-silk
 
 
-Build (the whole project or your custom project)
-----------
-
+## Build the whole project or your custom project
 
 We use [Gulp](http://gulpjs.com/) to build the project, so if you want to re-build or customize this project, you'll need Gulp.
 
@@ -109,28 +81,22 @@ After gulp is installed, and your CLI is pointed to your work directory, first i
 
 **with NPM 2.x.x**
 
-```
-npm install
-```
+> npm install
 
 **with NPM 3.x.x** (resolve dependencies for `node-spritesheet` before this module's ones)
 
-```
-npm install grunt grunt-contrib-coffee grunt-contrib-clean
-npm install
-```
+> npm install grunt grunt-contrib-coffee grunt-contrib-clean
+
+> npm install
 
 then be sure that you have *[ImageMagick](http://www.imagemagick.org/script/binary-releases.php)* installed for building spritesheet.
 
 then, you can run the `gulp build` task to build the project:
 
-
-```
-gulp build
-```
+> gulp build
 
 
-**What the build task does?**
+### What the build task does?
 
 First, it takes PNG files from the `src` folder, and pastes them to the `dist` folder.
 
@@ -140,3 +106,8 @@ If, for example you just want `application_put` and `monitor_edit` icons in a sp
 empty the `src` directory, except `application_put` and `monitor_edit` icons in PNG format, and then run the `gulp build` task.
 
 You'll get the proper spritesheet and copies of the icons directly in the `dist` folder.
+
+
+## License
+
+See [License](https://github.com/t1st3/famfamfam-silk/blob/master/LICENSE.md)
