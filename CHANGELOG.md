@@ -1,6 +1,7 @@
 ## Change Log
 
-### 0.3.6 (2016/02/15 09:46 +00:00)
+### 0.3.6 (2016/02/15 09:47 +00:00)
+- [c5fccd0](https://github.com/legacy-icons/famfamfam-silk/commit/c5fccd0bab30e562c941bece0fef367e63a2d3fb) chore: v0.3.6 (@t1st3)
 - [#4](https://github.com/legacy-icons/famfamfam-silk/pull/4) chore(package): update gulp-cssnano to version 2.1.1 (@t1st3)
 - [c42dd5d](https://github.com/legacy-icons/famfamfam-silk/commit/c42dd5d13b47ba0e5752631e638d330e6b41a95f) chore(package): update gulp-cssnano to version 2.1.1 (@greenkeeperio-bot)
 - [#3](https://github.com/legacy-icons/famfamfam-silk/pull/3) chore(package): update gulp to version 3.9.1 (@t1st3)
