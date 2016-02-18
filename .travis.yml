@@ -11,4 +11,4 @@ deploy:
     secure: ejpajtHaMR2CWAHbpp7Ut+UTdY+GvYksryK/bqiSsgtFoII2A76F23zL/Hp+QiRhmXDYG1E/1FisKgZdcTTOqC67QNlyX1b1HwjgfezbqIgTmnz24CYrck1GTYqI/9JtlqAP3uRrmzLDkPZzC3NUOAZLojBIe1DvuH9OXg/XncI=
   on:
     tags: true
-    repo: t1st3/famfamfam-silk
+    repo: legacy-icons/famfamfam-silk

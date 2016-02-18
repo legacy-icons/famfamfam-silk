@@ -1,6 +1,6 @@
 {
-  "name": "t1st3/famfamfam-silk",
-  "homepage": "https://github.com/t1st3/famfamfam-silk",
+  "name": "legacy-icons/famfamfam-silk",
+  "homepage": "https://github.com/legacy-icons/famfamfam-silk",
   "description": "FamFamFam Silk icon pack",
   "keywords": [
     "icon",
@@ -20,7 +20,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/t1st3/famfamfam-silk/issues/"
+    "issues": "https://github.com/legacy-icons/famfamfam-silk/issues/"
   },
   "type": "library",
   "extra": {

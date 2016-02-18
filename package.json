@@ -1,7 +1,7 @@
 {
   "name": "famfamfam-silk",
   "version": "0.3.6",
-  "homepage": "https://github.com/t1st3/famfamfam-silk",
+  "homepage": "https://github.com/legacy-icons/famfamfam-silk",
   "description": "FamFamFam Silk icon pack",
   "keywords": [
     "icon",
@@ -15,10 +15,10 @@
   "author": "t1st3 <contact@tiste.org> (http://www.tiste.org/)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/t1st3/famfamfam-silk.git"
+    "url": "git://github.com/legacy-icons/famfamfam-silk.git"
   },
   "bugs": {
-    "url": "https://github.com/t1st3/famfamfam-silk/issues"
+    "url": "https://github.com/legacy-icons/famfamfam-silk/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
