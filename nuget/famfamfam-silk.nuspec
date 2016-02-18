@@ -12,7 +12,7 @@
     <language>en-us</language>
     <projectUrl>https://github.com/legacy-icons/famfamfam-silk</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/legacy-icons/famfamfam-silk/master/dist/sprite/famfamfam-silk.png</iconUrl>
-    <licenseUrl>https://github.com/legacy-icons/famfamfam-silk/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/legacy-icons/famfamfam-silk/blob/master/LICENSE.md</licenseUrl>
     <copyright>Copyright 2015</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
